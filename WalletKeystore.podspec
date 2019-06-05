@@ -10,6 +10,7 @@ s.requires_arc = true
 # 2
 s.version = "0.1.0"
 
+
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -22,14 +23,13 @@ s.homepage = "https://github.com/candangios/WallWalletKeystoreetCore"
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/candangios/WalletKeystore.git", 
              :tag => "#{s.version}" }
+s.source  = { :git => 'https://github.com/tonymillion/Reachability.git'}
 
 # 7
 
-s.dependency 'BigInt' , '3.1.0'
-s.dependency 'CryptoSwift', '~> 0.10.0'
-s.dependency 'SipHash', '~> 1.2.2'
-s.dependency 'TrezorCrypto', '~> 0.0.9'
-s.dependency 'TrustCore', '~> 0.2.2'
+s.dependency 'BigInt' 
+s.dependency 'SipHash'
+s.dependency 'TrezorCrypto'
 
 # 8
 s.source_files = "WalletKeystore/**/*.{swift}"
