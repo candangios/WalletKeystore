@@ -1,0 +1,36 @@
+PODS:
+  - BigInt (4.0.0)
+  - CryptoSwift (0.10.0)
+  - TrezorCrypto (0.0.9)
+  - TrustCore (0.2.0):
+    - BigInt
+    - TrezorCrypto (~> 0.0.6)
+
+DEPENDENCIES:
+  - CryptoSwift (~> 0.10.0)
+  - TrustCore (from `https://github.com/candangios/trust-core.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - CryptoSwift
+    - TrezorCrypto
+
+EXTERNAL SOURCES:
+  TrustCore:
+    :git: https://github.com/candangios/trust-core.git
+
+CHECKOUT OPTIONS:
+  TrustCore:
+    :commit: 5f224aaf5bcb907aaab439b559bae0df941e4eae
+    :git: https://github.com/candangios/trust-core.git
+
+SPEC CHECKSUMS:
+  BigInt: 2aad1a9942dc932ec8b84290d2c564a3d76f97ab
+  CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
+  TrezorCrypto: bfeea47a052dca2c77d4a39e1e183865e52de14d
+  TrustCore: 734feca3d7612998001be38b1824e5bbd6d24144
+
+PODFILE CHECKSUM: 639b3f9729beceb7e76ce6d0d0ffe82a14395fb1
+
+COCOAPODS: 1.7.1
