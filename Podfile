@@ -4,7 +4,7 @@
 target 'WalletKeystore' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-    pod 'WalletCore','~> 0.3.0'
+    pod 'WalletCore','~> 0.3.0', :modular_headers => true
     pod 'CryptoSwift', '~> 0.10.0'
 
   # Pods for WalletKeystore

@@ -29,12 +29,11 @@ s.source = { :git => "https://github.com/candangios/WalletKeystore.git",
 s.dependency 'BigInt' 
 s.dependency 'SipHash'
 s.dependency 'TrezorCrypto'
-s.dependency 'WalletCore','~>0.3.0'
+s.dependency 'CryptoSwift', '~> 0.12.0'
+s.dependency 'WalletCore'
 
 # 8
-s.source_files = "WalletKeystore/**/*.{swift}"
-
-
+s.source_files = "WalletKeystore/**/*.{swift,m,h}"
 # 9
 s.swift_version = "4.2"
 
