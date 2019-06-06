@@ -7,7 +7,7 @@
 import CryptoSwift
 import Foundation
 import Security
-import TrustCore
+import WalletCore
 
 /// Key definition.
 public struct KeystoreKey {

@@ -1,0 +1,6 @@
+framework module WalletCore {
+  umbrella header "WalletCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

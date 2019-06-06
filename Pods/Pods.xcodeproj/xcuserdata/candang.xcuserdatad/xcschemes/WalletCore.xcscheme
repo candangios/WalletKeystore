@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F77E879DB4B52A9FDC56D0FCA969C77"
-               BuildableName = "TrustCore.framework"
-               BlueprintName = "TrustCore"
+               BlueprintIdentifier = "8965CEF5CD71A126CE61D812EFB078BB"
+               BuildableName = "WalletCore.framework"
+               BlueprintName = "WalletCore"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

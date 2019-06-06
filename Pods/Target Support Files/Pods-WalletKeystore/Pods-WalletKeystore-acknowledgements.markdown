@@ -65,7 +65,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## TrustCore
+## WalletCore
 
 Copyright (c) 2018 Alejandro Isaza
 

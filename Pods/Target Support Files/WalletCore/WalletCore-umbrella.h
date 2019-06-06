@@ -13,6 +13,6 @@
 #import "TrustCore.h"
 #import "Crypto.h"
 
-FOUNDATION_EXPORT double TrustCoreVersionNumber;
-FOUNDATION_EXPORT const unsigned char TrustCoreVersionString[];
+FOUNDATION_EXPORT double WalletCoreVersionNumber;
+FOUNDATION_EXPORT const unsigned char WalletCoreVersionString[];
 

@@ -5,7 +5,7 @@
 // file LICENSE at the root of the source code distribution tree.
 
 import Foundation
-import TrustCore
+import WalletCore
 
 /// Account represents a specific address in a wallet.
 public final class Account: Codable, Hashable {
