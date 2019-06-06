@@ -8,7 +8,7 @@ s.summary = "The Customize from Trust core"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.2"
 
 
 # 3
@@ -23,13 +23,13 @@ s.homepage = "https://github.com/candangios/WallWalletKeystoreetCore"
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/candangios/WalletKeystore.git", 
              :tag => "#{s.version}" }
-s.source  = { :git => 'https://github.com/tonymillion/Reachability.git'}
 
 # 7
 
 s.dependency 'BigInt' 
 s.dependency 'SipHash'
 s.dependency 'TrezorCrypto'
+s.dependency 'WalletCore','~>0.3.0'
 
 # 8
 s.source_files = "WalletKeystore/**/*.{swift}"
