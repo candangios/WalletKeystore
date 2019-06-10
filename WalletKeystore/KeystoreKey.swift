@@ -28,11 +28,17 @@ public struct KeystoreKey {
     /// Key version, must be 3.
     public var version = 3
 
-    /// Default coin for this key.
+    /// Coin
     public var coin: Coin?
 
     /// List of active accounts.
     public var activeAccounts = [Account]()
+
+    /// Creates a new `Key` with a password.
+    public init(password: String, for coin: Coin) throws {
+        let key = PrivateKey()
+        try self.init(password: password, key: key, coin: coin)
+    }
 
     /// Creates a new `Key` with a password.
     public init(password: String) throws {
@@ -47,10 +53,10 @@ public struct KeystoreKey {
     }
 
     /// Initializes a `Key` by encrypting a private key with a password.
-    public init(password: String, key: PrivateKey, coin: Coin?) throws {
+    public init(password: String, key: PrivateKey, coin: Coin) throws {
         id = UUID().uuidString.lowercased()
         crypto = try KeystoreKeyHeader(password: password, data: key.data)
-        self.type = .encryptedKey
+        type = .encryptedKey
         self.coin = coin
     }
 
@@ -66,6 +72,7 @@ public struct KeystoreKey {
 
         type = .hierarchicalDeterministicWallet
         self.passphrase = passphrase
+        self.coin = .none
     }
 
     /// Decrypts the key and returns the private key.
@@ -197,19 +204,5 @@ private extension String {
             return String(dropFirst(2))
         }
         return self
-    }
-}
-
-extension Coin: Codable {
-    public init(from decoder: Decoder) throws {
-        let container = try decoder.singleValueContainer()
-        let coinID = try container.decode(Int.self)
-        let coin = Coin(coinType: coinID)
-        self = coin
-    }
-
-    public func encode(to encoder: Encoder) throws {
-        var container = encoder.singleValueContainer()
-        try container.encode(self.coinType)
     }
 }

@@ -10,17 +10,16 @@
 		2C41554C22A7C62E00C51294 /* WalletKeystore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41554222A7C62E00C51294 /* WalletKeystore.framework */; };
 		2C41555122A7C62E00C51294 /* WalletKeystoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41555022A7C62E00C51294 /* WalletKeystoreTests.swift */; };
 		2C41555322A7C62E00C51294 /* WalletKeystore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C41554522A7C62E00C51294 /* WalletKeystore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C41556522A7C6C000C51294 /* KeyStore.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41555C22A7C6C000C51294 /* KeyStore.Error.swift */; };
-		2C41556622A7C6C000C51294 /* KeystoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41555D22A7C6C000C51294 /* KeystoreKey.swift */; };
-		2C41556722A7C6C000C51294 /* TrustKeystore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C41555E22A7C6C000C51294 /* TrustKeystore.h */; };
-		2C41556822A7C6C000C51294 /* KeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41555F22A7C6C000C51294 /* KeyStore.swift */; };
-		2C41556922A7C6C000C51294 /* KeystoreKeyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41556022A7C6C000C51294 /* KeystoreKeyHeader.swift */; };
-		2C41556A22A7C6C000C51294 /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41556122A7C6C000C51294 /* Scrypt.swift */; };
-		2C41556B22A7C6C000C51294 /* ScryptParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41556222A7C6C000C51294 /* ScryptParams.swift */; };
-		2C41556C22A7C6C000C51294 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41556322A7C6C000C51294 /* Account.swift */; };
-		2C41556D22A7C6C000C51294 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C41556422A7C6C000C51294 /* Wallet.swift */; };
-		78CD9B25C4F4CB59729E28B4 /* Pods_WalletKeystore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4E47082EA620AA7EC35355 /* Pods_WalletKeystore.framework */; };
-		C20D84B1FD95CE2D5045D7D2 /* Pods_WalletKeystoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD51B5C3429215805F32763 /* Pods_WalletKeystoreTests.framework */; };
+		74C316A055122F5FA48D165A /* Pods_WalletKeystore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512A19DA06495113C8C154DF /* Pods_WalletKeystore.framework */; };
+		841ABC6F22AE579300F664EE /* KeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6722AE579200F664EE /* KeyStore.swift */; };
+		841ABC7022AE579300F664EE /* ScryptParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6822AE579200F664EE /* ScryptParams.swift */; };
+		841ABC7122AE579300F664EE /* KeystoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6922AE579200F664EE /* KeystoreKey.swift */; };
+		841ABC7222AE579300F664EE /* KeyStore.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6A22AE579200F664EE /* KeyStore.Error.swift */; };
+		841ABC7322AE579300F664EE /* KeystoreKeyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6B22AE579300F664EE /* KeystoreKeyHeader.swift */; };
+		841ABC7422AE579300F664EE /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6C22AE579300F664EE /* Scrypt.swift */; };
+		841ABC7522AE579300F664EE /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6D22AE579300F664EE /* Account.swift */; };
+		841ABC7622AE579300F664EE /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ABC6E22AE579300F664EE /* Wallet.swift */; };
+		F57010C1B3A01E8AB7FADE63 /* Pods_WalletKeystoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AAE5AEA49A39E96CDACD35 /* Pods_WalletKeystoreTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,21 +39,20 @@
 		2C41554B22A7C62E00C51294 /* WalletKeystoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletKeystoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C41555022A7C62E00C51294 /* WalletKeystoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletKeystoreTests.swift; sourceTree = "<group>"; };
 		2C41555222A7C62E00C51294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C41555C22A7C6C000C51294 /* KeyStore.Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStore.Error.swift; sourceTree = "<group>"; };
-		2C41555D22A7C6C000C51294 /* KeystoreKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoreKey.swift; sourceTree = "<group>"; };
-		2C41555E22A7C6C000C51294 /* TrustKeystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrustKeystore.h; sourceTree = "<group>"; };
-		2C41555F22A7C6C000C51294 /* KeyStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStore.swift; sourceTree = "<group>"; };
-		2C41556022A7C6C000C51294 /* KeystoreKeyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoreKeyHeader.swift; sourceTree = "<group>"; };
-		2C41556122A7C6C000C51294 /* Scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
-		2C41556222A7C6C000C51294 /* ScryptParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScryptParams.swift; sourceTree = "<group>"; };
-		2C41556322A7C6C000C51294 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		2C41556422A7C6C000C51294 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
-		381A81ABFE7666CD9F357738 /* Pods-WalletKeystoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystoreTests.debug.xcconfig"; path = "Target Support Files/Pods-WalletKeystoreTests/Pods-WalletKeystoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		38717B0D45857A841364C60D /* Pods-WalletKeystore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystore.debug.xcconfig"; path = "Target Support Files/Pods-WalletKeystore/Pods-WalletKeystore.debug.xcconfig"; sourceTree = "<group>"; };
-		BB2620D98F6E2182769B59F5 /* Pods-WalletKeystoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystoreTests.release.xcconfig"; path = "Target Support Files/Pods-WalletKeystoreTests/Pods-WalletKeystoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		BD4E47082EA620AA7EC35355 /* Pods_WalletKeystore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletKeystore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9E49ADE9CD6CC0CFA0E69B2 /* Pods-WalletKeystore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystore.release.xcconfig"; path = "Target Support Files/Pods-WalletKeystore/Pods-WalletKeystore.release.xcconfig"; sourceTree = "<group>"; };
-		CFD51B5C3429215805F32763 /* Pods_WalletKeystoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletKeystoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ED50A9B721EF338DF37382 /* Pods-WalletKeystore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystore.release.xcconfig"; path = "Target Support Files/Pods-WalletKeystore/Pods-WalletKeystore.release.xcconfig"; sourceTree = "<group>"; };
+		512A19DA06495113C8C154DF /* Pods_WalletKeystore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletKeystore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AAE5AEA49A39E96CDACD35 /* Pods_WalletKeystoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletKeystoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841ABC6722AE579200F664EE /* KeyStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStore.swift; sourceTree = "<group>"; };
+		841ABC6822AE579200F664EE /* ScryptParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScryptParams.swift; sourceTree = "<group>"; };
+		841ABC6922AE579200F664EE /* KeystoreKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoreKey.swift; sourceTree = "<group>"; };
+		841ABC6A22AE579200F664EE /* KeyStore.Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStore.Error.swift; sourceTree = "<group>"; };
+		841ABC6B22AE579300F664EE /* KeystoreKeyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoreKeyHeader.swift; sourceTree = "<group>"; };
+		841ABC6C22AE579300F664EE /* Scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
+		841ABC6D22AE579300F664EE /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		841ABC6E22AE579300F664EE /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		8AA9EB17988FBB9ED1A73542 /* Pods-WalletKeystoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystoreTests.release.xcconfig"; path = "Target Support Files/Pods-WalletKeystoreTests/Pods-WalletKeystoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DF3F09D7C45627FE9F05871 /* Pods-WalletKeystoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystoreTests.debug.xcconfig"; path = "Target Support Files/Pods-WalletKeystoreTests/Pods-WalletKeystoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE9E0A63AA07B8BF5AAC234D /* Pods-WalletKeystore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletKeystore.debug.xcconfig"; path = "Target Support Files/Pods-WalletKeystore/Pods-WalletKeystore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78CD9B25C4F4CB59729E28B4 /* Pods_WalletKeystore.framework in Frameworks */,
+				74C316A055122F5FA48D165A /* Pods_WalletKeystore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C41554C22A7C62E00C51294 /* WalletKeystore.framework in Frameworks */,
-				C20D84B1FD95CE2D5045D7D2 /* Pods_WalletKeystoreTests.framework in Frameworks */,
+				F57010C1B3A01E8AB7FADE63 /* Pods_WalletKeystoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +83,7 @@
 				2C41554F22A7C62E00C51294 /* WalletKeystoreTests */,
 				2C41554322A7C62E00C51294 /* Products */,
 				7F39DE749B1ADF8BD015EC3C /* Pods */,
-				6A8AA6961D4B148B8A6269AA /* Frameworks */,
+				F1E4E97B230A3E4FBE1223B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +99,14 @@
 		2C41554422A7C62E00C51294 /* WalletKeystore */ = {
 			isa = PBXGroup;
 			children = (
-				2C41556322A7C6C000C51294 /* Account.swift */,
-				2C41555C22A7C6C000C51294 /* KeyStore.Error.swift */,
-				2C41555F22A7C6C000C51294 /* KeyStore.swift */,
-				2C41555D22A7C6C000C51294 /* KeystoreKey.swift */,
-				2C41556022A7C6C000C51294 /* KeystoreKeyHeader.swift */,
-				2C41556122A7C6C000C51294 /* Scrypt.swift */,
-				2C41556222A7C6C000C51294 /* ScryptParams.swift */,
-				2C41555E22A7C6C000C51294 /* TrustKeystore.h */,
-				2C41556422A7C6C000C51294 /* Wallet.swift */,
+				841ABC6D22AE579300F664EE /* Account.swift */,
+				841ABC6A22AE579200F664EE /* KeyStore.Error.swift */,
+				841ABC6722AE579200F664EE /* KeyStore.swift */,
+				841ABC6922AE579200F664EE /* KeystoreKey.swift */,
+				841ABC6B22AE579300F664EE /* KeystoreKeyHeader.swift */,
+				841ABC6C22AE579300F664EE /* Scrypt.swift */,
+				841ABC6822AE579200F664EE /* ScryptParams.swift */,
+				841ABC6E22AE579300F664EE /* Wallet.swift */,
 				2C41554522A7C62E00C51294 /* WalletKeystore.h */,
 				2C41554622A7C62E00C51294 /* Info.plist */,
 			);
@@ -125,24 +122,24 @@
 			path = WalletKeystoreTests;
 			sourceTree = "<group>";
 		};
-		6A8AA6961D4B148B8A6269AA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD4E47082EA620AA7EC35355 /* Pods_WalletKeystore.framework */,
-				CFD51B5C3429215805F32763 /* Pods_WalletKeystoreTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7F39DE749B1ADF8BD015EC3C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38717B0D45857A841364C60D /* Pods-WalletKeystore.debug.xcconfig */,
-				C9E49ADE9CD6CC0CFA0E69B2 /* Pods-WalletKeystore.release.xcconfig */,
-				381A81ABFE7666CD9F357738 /* Pods-WalletKeystoreTests.debug.xcconfig */,
-				BB2620D98F6E2182769B59F5 /* Pods-WalletKeystoreTests.release.xcconfig */,
+				CE9E0A63AA07B8BF5AAC234D /* Pods-WalletKeystore.debug.xcconfig */,
+				43ED50A9B721EF338DF37382 /* Pods-WalletKeystore.release.xcconfig */,
+				8DF3F09D7C45627FE9F05871 /* Pods-WalletKeystoreTests.debug.xcconfig */,
+				8AA9EB17988FBB9ED1A73542 /* Pods-WalletKeystoreTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1E4E97B230A3E4FBE1223B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512A19DA06495113C8C154DF /* Pods_WalletKeystore.framework */,
+				60AAE5AEA49A39E96CDACD35 /* Pods_WalletKeystoreTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C41555322A7C62E00C51294 /* WalletKeystore.h in Headers */,
-				2C41556722A7C6C000C51294 /* TrustKeystore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C41555622A7C62E00C51294 /* Build configuration list for PBXNativeTarget "WalletKeystore" */;
 			buildPhases = (
-				1809E62B7E3B5D8071DDB168 /* [CP] Check Pods Manifest.lock */,
+				F0BBB5CBE98A5215F43E2769 /* [CP] Check Pods Manifest.lock */,
 				2C41553D22A7C62E00C51294 /* Headers */,
 				2C41553E22A7C62E00C51294 /* Sources */,
 				2C41553F22A7C62E00C51294 /* Frameworks */,
@@ -183,7 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C41555922A7C62E00C51294 /* Build configuration list for PBXNativeTarget "WalletKeystoreTests" */;
 			buildPhases = (
-				6ECDC82600584BF605AE77FE /* [CP] Check Pods Manifest.lock */,
+				5366167B6E273EF8B5904FDF /* [CP] Check Pods Manifest.lock */,
 				2C41554722A7C62E00C51294 /* Sources */,
 				2C41554822A7C62E00C51294 /* Frameworks */,
 				2C41554922A7C62E00C51294 /* Resources */,
@@ -210,7 +206,7 @@
 				TargetAttributes = {
 					2C41554122A7C62E00C51294 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 					2C41554A22A7C62E00C51294 = {
 						CreatedOnToolsVersion = 10.1;
@@ -253,29 +249,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1809E62B7E3B5D8071DDB168 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WalletKeystore-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6ECDC82600584BF605AE77FE /* [CP] Check Pods Manifest.lock */ = {
+		5366167B6E273EF8B5904FDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,6 +271,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F0BBB5CBE98A5215F43E2769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalletKeystore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -304,14 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C41556D22A7C6C000C51294 /* Wallet.swift in Sources */,
-				2C41556522A7C6C000C51294 /* KeyStore.Error.swift in Sources */,
-				2C41556822A7C6C000C51294 /* KeyStore.swift in Sources */,
-				2C41556B22A7C6C000C51294 /* ScryptParams.swift in Sources */,
-				2C41556A22A7C6C000C51294 /* Scrypt.swift in Sources */,
-				2C41556922A7C6C000C51294 /* KeystoreKeyHeader.swift in Sources */,
-				2C41556622A7C6C000C51294 /* KeystoreKey.swift in Sources */,
-				2C41556C22A7C6C000C51294 /* Account.swift in Sources */,
+				841ABC7622AE579300F664EE /* Wallet.swift in Sources */,
+				841ABC7422AE579300F664EE /* Scrypt.swift in Sources */,
+				841ABC7122AE579300F664EE /* KeystoreKey.swift in Sources */,
+				841ABC7222AE579300F664EE /* KeyStore.Error.swift in Sources */,
+				841ABC7022AE579300F664EE /* ScryptParams.swift in Sources */,
+				841ABC7322AE579300F664EE /* KeystoreKeyHeader.swift in Sources */,
+				841ABC6F22AE579300F664EE /* KeyStore.swift in Sources */,
+				841ABC7522AE579300F664EE /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +454,7 @@
 		};
 		2C41555722A7C62E00C51294 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38717B0D45857A841364C60D /* Pods-WalletKeystore.debug.xcconfig */;
+			baseConfigurationReference = CE9E0A63AA07B8BF5AAC234D /* Pods-WalletKeystore.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -486,7 +482,7 @@
 		};
 		2C41555822A7C62E00C51294 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E49ADE9CD6CC0CFA0E69B2 /* Pods-WalletKeystore.release.xcconfig */;
+			baseConfigurationReference = 43ED50A9B721EF338DF37382 /* Pods-WalletKeystore.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -513,7 +509,7 @@
 		};
 		2C41555A22A7C62E00C51294 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 381A81ABFE7666CD9F357738 /* Pods-WalletKeystoreTests.debug.xcconfig */;
+			baseConfigurationReference = 8DF3F09D7C45627FE9F05871 /* Pods-WalletKeystoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,7 +529,7 @@
 		};
 		2C41555B22A7C62E00C51294 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2620D98F6E2182769B59F5 /* Pods-WalletKeystoreTests.release.xcconfig */;
+			baseConfigurationReference = 8AA9EB17988FBB9ED1A73542 /* Pods-WalletKeystoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

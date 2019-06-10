@@ -8,7 +8,7 @@ s.summary = "The Customize from Trust core"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.2"
+s.version = "0.1.4"
 
 
 # 3
